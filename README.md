@@ -3,7 +3,8 @@ Home Lab Infrastructure & Hybrid Cloud
 Repository containing Infrastructure-as-Code (IaC) configurations for my self-hosted homelab server. The system is designed with a Zero Trust approach using Cloudflare Tunnel and containerized services via Docker.
 
 Network Diagram
-<img width="3720" height="1702" alt="diagram_en" src="https://github.com/user-attachments/assets/a317a902-f3bd-45ae-a40a-b828f93f68e0" />
+<img width="3720" height="1702" alt="diagram_en" src="https://github.com/user-attachments/assets/9877365e-2ef2-4608-aaef-8bac2d4c2e66" />
+
 
 Key Configurations:
 
