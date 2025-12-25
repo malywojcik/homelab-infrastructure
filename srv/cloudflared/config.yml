@@ -1,0 +1,30 @@
+tunnel: czerks-tunnel 
+credentials-file: /srv/cloudflared/ID.json
+
+ingress:
+  - hostname: czerks.pl
+    service: http://localhost:8080
+
+  - hostname: www.czerks.pl
+    service: http://localhost:8080
+
+  - hostname: karol.czerks.pl
+    service: http://localhost:8081
+
+  - hostname: kuba.czerks.pl
+    service: http://localhost:8082
+
+  - hostname: jakub.czerks.pl
+    service: http://localhost:8083
+
+  - hostname: ssh.czerks.pl
+    service: ssh://127.0.0.1:<PORT>
+
+  - hostname: mine.czerks.pl
+    service: tcp://localhost:25565
+
+  - hostname: monitor.czerks.pl
+    service: http://localhost:3001
+
+  - service: http_status:404
+

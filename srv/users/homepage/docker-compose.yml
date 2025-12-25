@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  web:
+    image: nginx:alpine
+    container_name: homepage
+    volumes:
+      - ./public_html:/usr/share/nginx/html:ro
+    ports:
+      - "127.0.0.1:8080:80"
+    restart: always
